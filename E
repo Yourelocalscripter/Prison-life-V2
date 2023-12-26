@@ -1,0 +1,168 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local Hitbox = Instance.new("TextButton")
+local VisualGUI = Instance.new("TextButton")
+local Fly = Instance.new("TextButton")
+local Esp = Instance.new("TextButton")
+local Speed = Instance.new("TextButton")
+local Full = Instance.new("TextButton")
+local Fps = Instance.new("TextButton")
+local Push = Instance.new("TextButton")
+local Tp = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
+main.BorderColor3 = Color3.fromRGB(255, 0, 0)
+main.Position = UDim2.new(0.609401703, 0, 0.570754707, 0)
+main.Size = UDim2.new(0, 355, 0, 310)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(170, 85, 0)
+label.Size = UDim2.new(0, 355, 0, 48)
+label.Font = Enum.Font.SourceSans
+label.Text = "Script menu by.ExluZive"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextScaled = true
+label.TextSize = 14.000
+label.TextWrapped = true
+
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = main
+Hitbox.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Hitbox.Position = UDim2.new(0.0478873253, 0, 0.220143239, 0)
+Hitbox.Size = UDim2.new(0, 146, 0, 53)
+Hitbox.Font = Enum.Font.SourceSans
+Hitbox.Text = "Hitbox"
+Hitbox.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hitbox.TextSize = 40.000
+Hitbox.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/79Wi5c3b'),true))()
+end)
+
+VisualGUI.Name = "WallHack"
+VisualGUI.Parent = main
+VisualGUI.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+VisualGUI.Position = UDim2.new(0.523943663, 0, 0.220143239, 0)
+VisualGUI.Size = UDim2.new(0, 157, 0, 53)
+VisualGUI.Font = Enum.Font.SourceSans
+VisualGUI.Text = "WallHack"
+VisualGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+VisualGUI.TextSize = 40.000
+VisualGUI.TextWrapped = true
+VisualGUI.MouseButton1Down:connect(function()
+
+  loadstring(game:HttpGet(('https://pastebin.com/raw/JPHWmSAz'),true))()
+end)
+
+Fly.Name = "Fly"
+Fly.Parent = main
+Fly.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Fly.Position = UDim2.new(0.0478873253, 0, 0.457004833, 0)
+Fly.Size = UDim2.new(0, 146, 0, 50)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 40.000
+Fly.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet(('https://pastebin.com/raw/rchAz78F'),true))()
+end)
+
+Esp.Name = "Esp"
+Esp.Parent = main
+Esp.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Esp.Position = UDim2.new(0.523943663, 0, 0.457004833, 0)
+Esp.Size = UDim2.new(0, 157, 0, 50)
+Esp.Font = Enum.Font.SourceSans
+Esp.Text = "Esp"
+Esp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Esp.TextSize = 40.000
+Esp.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/dsTXRpHY'),true))()
+end)
+
+Speed.Name = "SpeedHack"
+Speed.Parent = main
+Speed.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Speed.Position = UDim2.new(0.0478873253, 0, 0.684004833, 0)
+Speed.Size = UDim2.new(0, 146, 0, 50)
+Speed.Font = Enum.Font.SourceSans
+Speed.Text = "SpeedHack"
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextSize = 38.900
+Speed.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/1BEgf70g'),true))()
+end)
+
+Full.Name = "FullBright"
+Full.Parent = main
+Full.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Full.Position = UDim2.new(0.523943663, 0, 0.684004833, 0)
+Full.Size = UDim2.new(0, 157, 0, 50)
+Full.Font = Enum.Font.SourceSans
+Full.Text = "FullBright"
+Full.TextColor3 = Color3.fromRGB(0, 0, 0)
+Full.TextSize = 40.000
+Full.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/d9KcW6MY'),true))()
+end)
+
+Fps.Name = "Fps Up"
+Fps.Parent = main
+Fps.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Fps.Position = UDim2.new(0.3698873253, 0, 0.867001033, 0)
+Fps.Size = UDim2.new(0, 90, 0, 37)
+Fps.Font = Enum.Font.SourceSans
+Fps.Text = "Fps Up"
+Fps.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fps.TextSize = 40.000
+Fps.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/tjkKB5uJ'),true))()
+end)
+
+Push.Name = "Punch"
+Push.Parent = main
+Push.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Push.Position = UDim2.new(0.0478873253, 0, 0.867001033, 0)
+Push.Size = UDim2.new(0, 90, 0, 37)
+Push.Font = Enum.Font.SourceSans
+Push.Text = "Punch"
+Push.TextColor3 = Color3.fromRGB(0, 0, 0)
+Push.TextSize = 40.000
+Push.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt'),true))()
+end)
+
+Tp.Name = "Click TP"
+Tp.Parent = main
+Tp.BackgroundColor3 = Color3.fromRGB(170, 170, 170)
+Tp.Position = UDim2.new(0.693943663, 0, 0.867001033, 0)
+Tp.Size = UDim2.new(0, 90, 0, 37)
+Tp.Font = Enum.Font.SourceSans
+Tp.Text = "Click TP"
+Tp.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tp.TextSize = 34.150
+Tp.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet(('https://pastebin.com/raw/spEZ5DeQ'),true))()
+end)
